@@ -1,19 +1,20 @@
 @import url(../components/header.css);
 @import url(../base/base.css);
+@import url(../base/layout.css);
+@import url(../components/powerbar.css);
 .main {
     width: 90%;
     display: inline-block;
     background-color: white;
     margin-left: 5%;
-    color: red;
+
 }
 .chili{
-    margin: 0;
     background-image: url(../../img/home/chili-pepper.png);
     height: 340px;
-    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 10px;
 }
 .chilielements{
     display: flex;
