@@ -1,53 +1,10 @@
-.content {
+@import url(../components/header.css);
+.main {
     width: 90%;
     display: inline-block;
     background-color: white;
     margin-left: 5%;
     color: red;
-}
-.header{
-    background-color: black;
-    display: inline-block;
-    height: 120px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 18px;
-    color: white;
-    font-weight: bold;
-    position: sticky;
-}
-.logolink {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    float: left;
-    margin-left: 0;
-    vertical-align: middle;
-    margin-top: 51px;
-}
-.headerlogo {
-    float: left;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
-.menu {
-    float: left;
-    margin-left: 0;
-    margin-top: 51px;
-    height: 18px;
-}
-.menu.links {
-    text-decoration: none;
-    color: white;
-    font-weight: lighter;
-    margin: 0 0 0 30px ;
-
-}
-.call-us {
-    float: right;
-    text-align: center;
-    
 }
 .chili{
     margin: 0;
