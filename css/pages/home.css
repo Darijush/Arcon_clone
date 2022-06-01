@@ -36,7 +36,6 @@
 .treetext{
     color: white;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     font-size: 15px;
     letter-spacing: 4px;
@@ -60,7 +59,6 @@
     color: var(--color-logo);
     font-size: 16px;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     letter-spacing: 4px;
     width: 300px;

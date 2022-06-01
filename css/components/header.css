@@ -1,17 +1,18 @@
 @import url(../base/base.css);
+.hstick{
+    position: sticky;
+    top: 0;
+}
 .header{
     display: flex;
     align-content: left;
     align-items: left;
     flex-wrap: wrap;
     height: 120px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 18px;
     color: var(--text-color);
     font-weight: bold;
-    position: sticky;
-
 }
 .left-column{
     display: flex;
@@ -32,7 +33,6 @@
 
 }
 
-
 .menu {
     float: left;
     margin-left: 0;
@@ -40,7 +40,7 @@
 }
 .menu.links {
     text-decoration: none;
-    color: var(--text-color);
+    color: white;
     font-weight: lighter;
     margin: 0 0 0 30px ;
 
