@@ -1,0 +1,21 @@
+.bar{
+    margin-top: 10px;
+    /* float: left; */
+    align-items: center;
+    text-align: center;
+}
+.pictext{
+    width: 140px;
+    height: 90px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.adimage{
+    width: 70px;
+}
+.adtext {
+    color:white;
+    text-transform: uppercase;
+}

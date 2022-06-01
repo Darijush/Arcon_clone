@@ -1,19 +1,20 @@
 @import url(../components/header.css);
 @import url(../base/base.css);
+@import url(../base/layout.css);
+@import url(../components/powerbar.css);
 .main {
     width: 90%;
     display: inline-block;
     background-color: white;
     margin-left: 5%;
-    color: red;
+
 }
 .chili{
-    margin: 0;
     background-image: url(../../img/home/chili-pepper.png);
     height: 340px;
-    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 10px;
 }
 .chilielements{
     display: flex;
@@ -35,7 +36,6 @@
 .treetext{
     color: white;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     font-size: 15px;
     letter-spacing: 4px;
@@ -56,10 +56,9 @@
     margin-right: auto;
 }
 .chiligtext{
-    color: #3E9E3E;
+    color: var(--color-logo);
     font-size: 16px;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     letter-spacing: 4px;
     width: 300px;
